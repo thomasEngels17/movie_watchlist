@@ -19,6 +19,9 @@ nav {
     background: black;
 }
 
+a {
+    color: #5706a5;
+}
 /* || BUTTONS, LINKS, FORMS, LISTS */
 h1 {
     font-size: 6.25rem;
