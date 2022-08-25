@@ -12,7 +12,7 @@ if(localStorage.getItem(`localStorageMovieLength`) !== null){
 
 /**
 * Function that stores the selected movie to local storage to ultimately be added to the watchlist
-* @author   Tommy
+* @author   Tommy Engels
 * @param    {movie_id} movie_id each button is unique and linked to unique movie
 * @return   {None} returns nothing
 */
