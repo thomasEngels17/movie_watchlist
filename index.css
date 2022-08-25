@@ -1,0 +1,161 @@
+/* || LAYOUT AND GENERAL STYLES */
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    background-color: white;
+    color: #5706a5;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 0;
+
+}
+nav {
+    background: black;
+}
+
+/* || BUTTONS, LINKS, FORMS, LISTS */
+h1 {
+    font-size: 6.25rem;
+}
+form {
+    background-color: #5706a5;;
+    width: 18.75rem;
+    height: 2.75rem;
+    border-radius: .313rem;
+    padding: 1.25rem 0;
+  }
+
+form > * {
+    padding: .625rem;
+}
+
+/* button {
+    background-color: #FFF100;
+    font-size: 1.25rem;
+    border-radius: .60rem;
+    transform: scale(1);
+    transition: transform 250ms;
+    cursor: pointer;
+    width: 25%;
+}
+
+button:hover, button:focus {
+    background-color: #FFFF99;
+    transform: scale(1.1);
+} */
+
+/* || IMAGES */
+
+/* || UTILITIES */
+
+/* || SITEWIDE e.g., nav, footer */
+
+/* || CLASS SPECIFIC */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar h2 {
+    margin: auto 0;
+}
+
+.search {
+    display: flex;
+    margin: -2.5rem auto;
+    text-align: center;
+}
+
+#movie-list, #personal-movie-list {
+    display: flex;
+    flex-direction: column;
+    width: 28.875rem;
+    margin: 0 auto;
+    margin-top: 6.25rem;
+    color: white;
+}
+
+.movie {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: .313rem auto;
+    background-color: black;
+}
+
+
+#high-level {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin: .313rem;
+}
+#high-level > * {
+    padding-right: .313rem;
+}
+
+#movie-logistics {
+    margin: .313rem;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-between;
+    font-size: .75rem;
+}
+
+.movie-description {
+    width: 21.375rem;
+    text-align: left;
+    padding-left: .313rem;
+
+}
+
+/* || ID SPECIFIC */
+
+#add-to-watchlist-btn {
+    color: #5706a5;
+    font-size: .75rem;
+    border-radius: 50%;
+}
+
+#search-form {
+    padding: 2.188rem .313rem;
+}
+
+#search-form > * {
+    font-size: medium;
+}
+
+.purple-btn {
+    padding: 1.875rem 6.25rem;
+    font-size: larger;
+    background-color: #5706a5;
+    color: white;
+    border-radius: .5rem;
+}
+
+/*MOBILE FRIENDLY CSS*/
+@media screen and (max-width: 1000px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar h2 {
+        margin-bottom: 1rem;
+    }
+
+    .search {
+        display: flex;
+        margin: 1rem auto;
+        text-align: center;
+    }
+
+
+}
