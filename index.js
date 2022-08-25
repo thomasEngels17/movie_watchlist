@@ -18,7 +18,7 @@ if(localStorage.getItem(`localStorageMovieLength`) !== null){
 */
 function addToWatchList(movie_id){
     console.log("Clicked")
-    let movie_for_list = document.getElementById(`add-to-watchlist-btn ${i}`).parentElement.parentElement.parentElement
+    let movie_for_list = document.getElementById(`add-to-watchlist-btn ${movie_id}`).parentElement.parentElement.parentElement
     console.log(movie_for_list)
     localStorage.setItem(`${movie_index}`, movie_for_list.innerHTML)
     movie_index += 1
