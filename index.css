@@ -25,18 +25,18 @@ a {
 /* || BUTTONS, LINKS, FORMS, LISTS */
 h1 {
     font-size: 6.25rem;
-    color: #5706a5;
 }
 form {
     background-color: #5706a5;;
-    width: 18.75rem;
-    height: 2.75rem;
+    /* width: 18.75rem;
+    height: 2.75rem; */
     border-radius: .313rem;
-    padding: 1.25rem 0;
+    /* padding: 1.25rem 0; */
   }
 
 form > * {
-    padding: .625rem;
+    /* padding: 1rem; */
+    padding: 1.875rem 6.25rem;
 }
 
 /* button {
@@ -65,6 +65,7 @@ button:hover, button:focus {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background: linear-gradient(to left, #5706a5, #fff);
 }
 
 .navbar h2 {
@@ -135,14 +136,27 @@ button:hover, button:focus {
 
 #search-form > * {
     font-size: medium;
+    border-radius: 5px;
+    font-size: larger;
 }
 
 .purple-btn {
     padding: 1.875rem 6.25rem;
     font-size: larger;
-    background-color: #5706a5;
+    background: linear-gradient(to right, #5706a5, #fff);
     color: white;
     border-radius: .5rem;
+    transform: scale(1);
+    transition: transform 250ms;
+}
+
+.purple-btn:hover, .purple-btn:focus {
+    transform: scale(1.1);
+}
+
+#search-btn, #render-movie-btn {
+    background: linear-gradient(to right, #5706a5, #fff);
+    color: black;
 }
 
 /*MOBILE FRIENDLY CSS*/

@@ -24,6 +24,7 @@ function addToWatchList(movie_id){
     movie_index += 1
     let updated_length = JSON.parse(localStorage.getItem('localStorageMovieLength')) +  1
     localStorage.setItem('localStorageMovieLength', `${updated_length}`)
+    window.alert("Movie Added")
 }
 
 /**
